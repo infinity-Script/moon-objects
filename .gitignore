@@ -1,0 +1,7 @@
+*
+**
+!.gitignore
+!MoonLoader
+!MoonLoader/lib
+!MoonLoader/lib/objects
+!MoonLoader/lib/objects/**
