@@ -1,0 +1,47 @@
+v.015	pointCameraAtCar(Vehicle car, int mode, int switchstyle)	0158
+v.015	pointCameraAtChar(Ped ped, int mode, int switchstyle)	0159
+v.015	restoreCamera()	015A
+v.015	setFixedCameraPosition(float positionX, float positionY, float positionZ, float rotationX, float rotationY, float rotationZ)	015F
+v.015	pointCameraAtPoint(float pointAtX, float pointAtY, float pointAtZ, int switchstyle)	0160
+v.015	restoreCameraJumpcut()	02EB
+v.015	setCameraZoom(int mode)	032A
+v.015	setCameraBehindPlayer()	0373
+v.015	setCameraInFrontOfPlayer()	03C8
+v.015	noSpecialCameraForThisGarage(int int1)	03DA
+v.015	setGenerateCarsAroundCamera(bool int1)	03EA
+v.015	float X, float Y, float Z = getDebugCameraCoordinates()	0454
+v.015	float X, float Y, float Z = getDebugCameraPointAt()	0463
+v.015	switchSecurityCamera(bool int1)	04C7
+v.015	bool result = isDebugCameraOn()	05A0
+v.015	attachCameraToVehicle(Vehicle car, float offsetX, float offsetY, float offsetZ, float rotationX, float rotationY, float rotationZ, float tilt, int switchstyle)	0679
+v.015	attachCameraToVehicleLookAtVehicle(Vehicle car, float offsetX, float offsetY, float offsetZ, int toCar, float tilt, int switchstyle)	067A
+v.015	attachCameraToVehicleLookAtChar(Vehicle car, float offsetX, float offsetY, float offsetZ, Ped ped, float tilt, int switchstyle)	067B
+v.015	attachCameraToChar(Ped ped, float offsetX, float offsetY, float offsetZ, float rotationX, float rotationY, float rotationZ, float tilt, int switchstyle)	067C
+v.015	attachCameraToCharLookAtChar(Ped ped, float offsetX, float offsetY, float offsetZ, int targetActor, float tilt, int switchstyle)	067E
+v.015	float X, float Y, float Z = getActiveCameraCoordinates()	068D
+v.015	float X, float Y, float Z = getActiveCameraPointAt()	068E
+v.015	setTwoPlayerCameraMode(bool mode)	06E0
+v.015	float fov = getCameraFov()	0801
+v.015	addStuntJump(float startX, float startY, float startZ, float radiusX, float radiusY, float radiusZ, float goalX, float goalY, float goalZ, float radius2X, float radius2Y, float radius2Z, float cameraX, float cameraY, float cameraZ, int reward)	0814
+v.015	setFirstPersonInCarCameraMode(bool enable)	0822
+v.015	doCameraBump(float rotationZ, float rotationY)	0834
+v.015	cameraSetVectorTrack(float pointX, float pointY, float pointZ, float transverseX, float transverseY, float transverseZ, int time, bool smooth)	0920
+v.015	cameraSetLerpFov(float from, float to, int timelimit, bool smoothTransition)	0922
+v.015	cameraResetNewScriptables()	0925
+v.015	cameraPersistTrack(bool lock)	092F
+v.015	cameraPersistPos(bool lock)	0930
+v.015	cameraPersistFov(bool lock)	0931
+v.015	bool result = cameraIsVectorMoveRunning()	0933
+v.015	bool result = cameraIsVectorTrackRunning()	0934
+v.015	cameraSetVectorMove(float cameraX, float cameraY, float cameraZ, float positionX, float positionY, float positionZ, int time, bool smoothTransition)	0936
+v.015	setCinemaCamera(bool lock)	093D
+v.015	setCameraInFrontOfChar(Ped ped)	0944
+v.015	addExplosionVariableShake(float atX, float atY, float atZ, int type, float cameraShake)	0948
+v.015	cameraSetShakeSimulationSimple(int type, float timelimit, float intensity)	099C
+v.015	setPlayerInCarCameraMode(int mode)	09AD
+v.015	allowFixedCameraCollision(bool allow)	09EC
+v.015	setVehicleCameraTweak(Model carModel, float distance, float altitudeMultiplier, float angleX)	09EF
+v.015	resetVehicleCameraTweak()	09F0
+v.015	setCameraPositionUnfixed(float xAngle, float zAngle)	0A25
+v.015	setPhotoCameraEffect(bool firstPersonView)	0A2F
+v.015	int mode = getPlayerInCarCameraMode()	0A39
